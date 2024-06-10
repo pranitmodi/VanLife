@@ -1,0 +1,101 @@
+.reviews_main
+{
+    background-color: #FFF7ED;
+    padding: 25px;
+}
+.top
+{
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+}
+.top p
+{
+    color: black;
+}
+.top p span
+{
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.second
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.second p
+{
+    font-weight: 550;
+    color: black;
+}
+
+.rat_main
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    user-select: none;
+}
+.rat_main p
+{
+    color: black;
+    font-weight: 600;
+    margin: auto;
+}
+.rat_main .color
+{
+    width: 60%;
+    margin: auto;
+    background-color: #B9B9B9;
+    border-radius: 10px;
+}
+.rat_main .color .cover
+{
+    background-color: #FF8C38;
+    color: #FF8C38;
+    border-radius: 10px;
+}
+.sliders
+{
+    margin-bottom: 20px;
+}
+
+.all_revs
+{
+    margin-top: 10px;
+    height: 300px;
+    overflow: scroll;
+}
+.all_revs::-webkit-scrollbar {
+    display: none;
+  }
+.rev_main
+{
+    margin-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+}
+.rev_main .stars
+{
+    margin-bottom: 5px;
+}
+.rev_main .rev_text
+{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.rev_main .rev_text .date
+{
+    font-weight: 400;
+}
+.rev_main h5
+{
+    font-weight: 400;
+}

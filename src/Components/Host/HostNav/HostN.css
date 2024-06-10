@@ -1,0 +1,20 @@
+.hostnav_main
+{
+    display: flex;
+    background-color: #FFF7ED;
+    gap: 20px;
+    padding: 25px;
+}
+.hostnav_main a
+{
+    text-decoration: none;
+    color: black;
+}
+.hostnav_main h2
+{
+    font-size: 20px;
+}
+.hostnav_main h2:hover
+{
+    text-decoration: underline;
+}

@@ -1,0 +1,109 @@
+.host_income
+{
+    background-color: #FFEAD0;
+    padding: 25px;
+}
+.host_income h1
+{
+    margin-bottom: 10px;
+}
+.host_income .income_details
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.host_income .price
+{
+    font-size: 40px;
+}
+.host_income .income_details p
+{
+    color:#4D4D4D;
+}
+.host_income .income_details p span
+{
+    color: #161616;
+    font-weight: 550;
+}
+.host_review
+{
+    padding: 25px;
+    background-color: #FFDDB2;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    justify-content: space-between;
+}
+.host_review .left
+{
+    display: flex;
+    gap: 20px;
+}
+.host_review p
+{
+    font-size: 16px;
+    color: #161616;
+    font-weight: 550;
+}
+.host_vans
+{
+    padding: 25px;
+    background-color: #FFF7ED;
+}
+.host_vans .text
+{
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.host_vans .text p
+{
+    color: #161616;
+    font-weight: 550;
+    font-size: 16px;
+}
+.van_ele
+{
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.van_ele .van_left
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.hostdashboard_main a
+{
+    text-decoration: none;
+}
+.van_ele a
+{
+    text-decoration: none;
+}
+.van_ele .van_text h3
+{
+    font-size: 20px;
+}
+.van_ele p
+{
+    color: #161616;
+    font-size: 16px;
+}
+.van_ele span
+{
+    font-weight: 550;
+}
+.van_ele img
+{
+    width: 66px;
+    border-radius: 5px;
+}

@@ -1,0 +1,35 @@
+.newnav_main
+{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+}
+.newnav_main h3:hover
+{
+    text-decoration: underline
+}
+
+.details_main p span
+{
+    font-weight: 600;
+}
+.details_main p 
+{
+    font-size: 18px;
+}
+
+.price_main
+{
+    padding: 20px;
+}
+
+.photo_main
+{
+    padding: 20px;
+}
+.photo_main img
+{
+    width: 100px;
+    border-radius: 10px;
+}

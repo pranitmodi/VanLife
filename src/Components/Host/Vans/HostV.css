@@ -1,0 +1,77 @@
+.hostvans_main
+{
+    padding: 25px;
+    background-color:#FFF7ED;
+}
+.hostvans_main h1
+{
+    margin-bottom: 30px;
+}
+.allvans a
+{
+    text-decoration: none;
+    color: black;
+}
+.vaneach_all
+{
+    background-color: #FFF7ED;
+    padding: 25px;
+}
+.vaneach_all .link_each
+{
+    display: flex;
+    gap: 10px;
+}
+.vaneach_all a
+{
+    text-decoration: none;
+    color: black;
+}
+.vaneach_all .link_each i
+{
+    font-size: 18px;
+}
+.vaneach_all .link_each p
+{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: underline;
+    color: black;
+}
+
+.v_main
+{
+    background-color: #ffffffff;
+    padding: 20px;
+    margin-top: 30px;
+}
+.content
+{
+    display: flex;
+}
+.content img
+{
+    width: 150px;
+    margin: 10px;
+    border-radius: 7px;
+}
+.content_text
+{
+    padding: 20px;
+}
+.content_text .type
+{
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 12px;
+    display: inline;
+    border-radius: 7px;
+}
+.content_text h1
+{
+    margin-top: 10px;
+}
+.content_text h2
+{
+    font-weight: 400;
+}

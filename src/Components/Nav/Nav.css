@@ -1,0 +1,31 @@
+.nav_main
+{
+    display: flex;
+    background-color: #FFF7ED;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    user-select: none;
+}
+.nav_main .logo
+{
+    font-size: 12px;
+    font-weight: 600;
+}
+.nav_main .links
+{
+    display: flex;
+    gap: 20px;
+}
+.nav_main a
+{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    font-size: 15px;
+}
+.nav_main a:hover
+{
+    text-decoration: underline;
+}

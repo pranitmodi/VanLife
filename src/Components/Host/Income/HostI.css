@@ -1,0 +1,38 @@
+.hostincome_main
+{
+    background-color: 
+    #FFF7ED;
+    padding: 25px;
+}
+.hostincome_main p
+{
+    color: black;
+}
+.hostincome_main p span
+{
+    font-weight: 600;
+    text-decoration: underline;
+}
+.hostincome_main h2
+{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.transactions
+{
+    height: 400px;
+    overflow-y: scroll;
+}
+.transactions::-webkit-scrollbar
+{
+    display: none;
+}
+.transc
+{
+    display: flex;
+    padding: 20px 30px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}

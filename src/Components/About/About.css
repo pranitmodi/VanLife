@@ -1,0 +1,37 @@
+.about_main
+{
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.about_text
+{
+    padding: 20px;
+}
+.about_text h1
+{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.about_text p
+{
+    margin-bottom: 15px;
+    color: #000;
+}
+.about_cta
+{
+    padding: 20px;
+    background-color: #FFCC8D;
+    margin: 0px 20px;
+}
+.about_cta p
+{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.about_cta a
+{
+    text-decoration: none;
+}

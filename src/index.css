@@ -1,0 +1,17 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+body,html
+{
+    height: 100%;
+    width: 548px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    background-color: dimgrey;
+    position: relative;
+}

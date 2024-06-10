@@ -1,0 +1,34 @@
+.signin_main
+{
+    background-color: #FFF7ED;
+    padding: 25px;
+    text-align: center;
+}
+.input_text
+{
+    margin-top: 20px;
+}
+.signin_main input
+{
+    font-size: 16px;
+    outline: none;
+    display: block;
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;
+}
+.cta
+{
+    color: #fff;
+    user-select: none;
+}
+.signin_main p
+{
+    user-select: none;
+    font-weight: 600;
+    color: black;
+}
+.signin_main p span
+{
+    color: #FF8C38;
+}

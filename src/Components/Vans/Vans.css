@@ -1,0 +1,90 @@
+.vans_main
+{
+    background-color: #FFF7ED;
+    user-select: none;
+}
+.vans_filter
+{
+    padding: 25px;
+}
+.filters
+{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    user-select: none;
+}
+.filters h3
+{
+    cursor: pointer;
+    padding: 10px 20px;
+    font-weight: 500;
+    background-color: #FFEAD0;
+}
+.filters .simple:hover
+{
+    color: #FFEAD0;
+    background-color: #E17654;
+}
+.filters .luxury:hover
+{
+    color: #FFEAD0;
+    background-color: #161616;
+}
+.filters .rugged:hover
+{
+    color: #FFEAD0;
+    background-color: #115E59;
+}
+.filters p
+{
+    cursor: pointer;
+    margin-left: 30px;
+    text-decoration: underline;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+.all_vans
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+.all_vans a
+{
+    text-decoration: none;
+    color: #161616;
+    width: 50%;
+}
+.van_main
+{
+    padding: 20px;
+}
+.van_main img
+{
+    width: 100%;
+    border-radius: 10px;
+}
+.van_main .text
+{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+.van_main .text p
+{
+    color: black;
+    font-size: 10px;
+}
+.van_main .type
+{
+    color: #FFEAD0;
+    padding: 8px 15px;
+    background-color: #4D4D4D;
+    display: inline;
+    font-size: 14px;
+    border-radius: 7px;
+    font-weight: 600;
+}
