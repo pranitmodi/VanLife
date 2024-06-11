@@ -15,6 +15,7 @@ import Details from './Components/Host/Vans/NewNav/Details';
 import Pricing from './Components/Host/Vans/NewNav/Pricing';
 import Photos from './Components/Host/Vans/NewNav/Photos';
 import Signin from './Components/Sign In/Signin';
+import Error from './Components/Error/Error'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route element={<LayoutMain/>}>
           <Route path='/van/:id' element={<VanDetail/>}/>
+          <Route path='*' element={<Error/>}/>
           <Route path='/' element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/vans' element={<Vans/>}/>
